@@ -1,0 +1,21 @@
+/* BEM CSS Selector */
+.paragraph__one {
+    text-align: center;
+    background-color: #b31414;
+    font-size: 20px;
+}
+.paragraph__two {
+    text-align: left;
+    background-color: #534545;
+    font-size: 18px;
+}
+.paragraph__three {
+    text-align: right;
+    background-color: #693f3f;
+    font-size: 16px;
+}
+.paragraph__four {
+    text-align: center;
+    background-color: #ac4f4f;
+    font-size: 14px;
+}

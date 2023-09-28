@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        
+        #forms {
+            border: 5px red;
+            background-color: #3b38381e;
+           
+            text-align: center;
+            font-size: 20px;
+            background-image: url('texture.jpg');
+            opacity: 1;
+        }
+        .Stu {
+            background-color: #a88e5e;
+        }
+        .f {
+            background-color: #6d6dcf;
+            color: white;
+        }
+        .l {
+            background-color: #582b2b;
+            color: white;
+        }
+        .e {
+            background-color:#5cc9c9;
+            color:white
+        }
+        .m {
+            background-color: rgb(82, 82, 59);
+            color: white;
+        }
+        .p {
+            background-color:#e3eaa7;
+            color: rgb(121, 46, 46);
+        }
+        .s {
+            background-color: green;
+        }
+        
+    </style>
+</head>
+<body>
+    <form id="forms" action="POST">
+        
+        <h1 class="Stu">Student Form</h1>
+        <label class="f" for="fname" >First name:</label><br>
+        <input class="f" type="text" id="fname" name="fname" value="your first name"><br>
+        <label class="l" for="lname">Last name:</label><br>
+        <input class="l" type="text" id="lname" name="lname" value="your last name"></br>
+        <label class="e" for="emailid">Email Id:</label></br>
+        <input class="e" type="email" id="emailid" name="emailid" value="your email id"></br>
+        <label class="m" for="mobilenum">Mobile Number:</label></br>
+        <input class="m" type="number" id="mobilenum" name="mobilenum" value="123"></br>
+        <label class="p" for="Password">Password</label></br>
+        <input class="p" type="password" id="Password" name="Password" value="123"></br>
+        <button class="s">Submit</button>
+        
+    </form>
+    
+</body>
+</html>
